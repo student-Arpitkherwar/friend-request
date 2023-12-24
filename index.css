@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dabba{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.dabba img{
+    height: 50%;
+    width: 100%;
+    padding:20px 10px;
+ border-radius: 10px;
+   object-position: center;
+}
+.dabba h2{
+    padding: 30px 20px;
+    color: red;
+}
+.dabba button{
+    margin: 10px;
+    border: 1px solid black;
+   background-color: rgb(43, 130, 133);
+   border-radius: 5px;
+   font-family: gilroy;padding: 10px 20px;
+   color: white;
+   font-weight: 700;
+   cursor: pointer;
+}
